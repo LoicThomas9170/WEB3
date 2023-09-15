@@ -1,6 +1,10 @@
+import image from './logo_vinci.png'
 const Header = (props) => {
     return (
-      <h1>{props.course}</h1>
+      <>
+        <img src={image} alt="Logo" />
+        <h1>{props.course}</h1>
+      </>
     )
   }
 
